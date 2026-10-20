@@ -1,0 +1,85 @@
+.Buttons button
+{
+    background-color: rgb(78, 78, 255);
+    color: aliceblue;
+    font-size: small;
+    opacity:  0.9;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 6px;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-color: rgb(104, 104, 255);
+}
+.Buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea
+{
+    width: 50%;
+    height: 500px;
+    resize: none;
+    border-radius: 6px;
+}
+.write-display
+{
+    display: flex;
+}
+.write-display .display-class
+{
+    margin-left: 20px;
+    background-color: rgb(230, 232, 236); 
+    color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.bottom-buttons button
+{
+    background-color: rgb(78, 78, 255);
+    color: aliceblue;
+    font-size: small;
+    opacity:  0.9;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+.bottom-buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.display-class .display-presentation
+{
+    flex: 1;
+    padding-left: 10px;
+}
+button:disabled
+{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+#counter p
+{
+    padding-left: 10px;
+    margin: 0px;
+    background-color: rgb(78, 78, 255);
+    color: aliceblue;
+    display: inline;
+    border-radius: 3px;
+}
+#main-heading
+{
+    color: rgb(78, 78, 255);
+    text-align: center;
+}
